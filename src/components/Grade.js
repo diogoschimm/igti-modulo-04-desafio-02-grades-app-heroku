@@ -29,7 +29,7 @@ const Grade = (props) => {
 
   const handleInputChange = (event) => {
     const { name, value } = event.target;
-    setCurrentGrade({ ...currentGrade, [name]: value });
+    setCurrentGrade({ ...currentGrade, [name]: value }); 
   };
 
   const updateGrade = () => {
